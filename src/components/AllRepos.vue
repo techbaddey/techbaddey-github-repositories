@@ -10,7 +10,7 @@
           v-for="repo in paginatedRepositories"
           :key="repo.id"
         >
-          <router-link
+        🚀 <router-link
             class="links"
             :to="{ name: 'single-repo', params: { id: repo.id } }"
             >{{ repo.name }}</router-link
