@@ -1,1 +1,1 @@
-## Teqbaddie Repository
+## Teqbaddie Repositories
