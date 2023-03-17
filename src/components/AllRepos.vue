@@ -51,7 +51,7 @@ export default {
     return {
       repositories: [],
       currentPage: 1,
-      perPage: 5,
+      perPage: 7,
       totalPages: 0,
       loading: true,
     };
@@ -89,8 +89,8 @@ export default {
 <style>
 .repos-container {
   /* margin: 0 -1rem -1rem 0; */
-  margin-top: 120px;
-  height: 100vh;
+  margin-top: 135px;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -107,7 +107,7 @@ export default {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
-  color: #504b4b;
+  /* color: #504b4b; */
 }
 .loader {
   width: 48px;
@@ -160,6 +160,7 @@ export default {
 h1 {
   color: #fff;
   text-align: center;
+  font-size: 1.5rem;
 }
 
 ul {
@@ -190,13 +191,14 @@ li:hover {
 }
 
 .links {
-  color: #504b4b;
+  /* color: #504b4b; */
+  color: #fff;
   text-decoration: none;
   cursor: pointer;
 }
 
 .links:visited {
-  color: #867c7c;
+  color: #ff32ff;
 }
 
 .btn-container {
@@ -206,8 +208,12 @@ li:hover {
   margin: 2rem 0 1.5rem 0;
 }
 
+.btn-container span {
+  color: #fff;
+}
+
 button {
-  background-color: #e01f1f;
+  background-color: #ff32ff;
   color: #fff;
   border: none;
   padding: 0.5rem 2rem;
@@ -216,12 +222,9 @@ button {
   font-size: 1.2rem;
 }
 
-button:hover {
-  background-color: #d85d5d;
-}
-
 .disabled {
-  color: grey;
+  background-color: #1a1e22;
+  color: #fff;
   cursor: not-allowed;
 }
 
