@@ -94,6 +94,7 @@ export default {
   margin: 1rem 0;
   font-family: "Space Mono", monospace;
   color: #fff;
+  text-decoration: none;
 }
 
 .repos a {

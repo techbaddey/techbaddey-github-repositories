@@ -170,6 +170,7 @@ h1 {
   font-size: 1.5rem;
   font-family: "Space Mono", monospace;
   margin-bottom: 20px;
+  text-decoration: underline;
 }
 
 ul {

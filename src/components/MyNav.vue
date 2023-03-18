@@ -28,7 +28,7 @@
 html,
 body {
   scroll-behavior: smooth;
-  background: #1a1e22;
+  background: #5c5e5f;
   overflow-x: hidden;
 }
 
@@ -80,5 +80,18 @@ nav {
   .layout-link {
     font-size: 0.9rem;
   }
+
+  .layout-link {
+  list-style: none;
+  padding: 5px 8px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ff32ff;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.2s ease-in-out;
+  margin-left: 0.8rem;
+}
+
 }
 </style>

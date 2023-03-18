@@ -22,12 +22,16 @@ export default {
 </script>
 
 <style scoped>
+
 .page-404 {
+  height: 100%;
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  background-color: #1a1e22;
 }
 
 .first-text {
