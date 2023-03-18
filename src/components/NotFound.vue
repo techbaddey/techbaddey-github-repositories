@@ -1,29 +1,25 @@
 <template>
-   <div class="page-404">
+  <div class="page-404">
     <div class="page-404__inner">
-      <p class="first-text"> Oops! </p>
-      <p class="second-text"> We can't seem to find the
-page you're looking for. </p>
+      <p class="first-text">Oops!</p>
+      <p class="second-text">
+        We can't seem to find the page you're looking for.
+      </p>
       <p class="third-text">Error code: 404</p>
       <p class="fourth-text">Here are some helpful links instead:</p>
       <div class="link-container">
-      <!-- <RouterLink to="/" class="link"> Go Home </RouterLink> -->
-      <router-link class="link" to="/">Profile</router-link>
-      <router-link class="link" to="/repositories">Repositories</router-link>
-      <router-link class="link" to="/404">404</router-link>
+        <router-link class="link" to="/">Profile</router-link>
+        <router-link class="link" to="/repositories">Repositories</router-link>
+        <router-link class="link" to="/404">404</router-link>
+      </div>
     </div>
-    </div>
-    
   </div>
 </template>
 <script>
-
 export default {
   name: "NotFound",
-
 };
 </script>
-
 
 <style scoped>
 .page-404 {
@@ -37,7 +33,6 @@ export default {
 .first-text {
   font-size: 100px;
   color: #fff;
-  /* margin-bottom: 0.5rem; */
 }
 
 .second-text {
@@ -65,7 +60,4 @@ export default {
   text-decoration: underline;
   margin-right: 1rem;
 }
-
-
-
 </style>

@@ -1,5 +1,5 @@
 <template>
-<AppLayout />
+  <AppLayout />
   <div class="home">
     <div class="container">
       <div class="content">
@@ -11,9 +11,7 @@
         <p class="bio">{{ profile.bio }}</p>
 
         <div class="follows">
-          <div class="followings">
-            <b>35</b> <br />Repositories
-          </div>
+          <div class="followings"><b>35</b> <br />Repositories</div>
           <div class="followers">
             <b>{{ profile.followers }}</b> <br />Followers
           </div>
@@ -55,9 +53,8 @@ export default {
 };
 </script>
 
-
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
 
 .home {
   height: 100vh;
@@ -77,17 +74,16 @@ h1 {
   color: #fff;
 }
 
-img{
+img {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
   border: 0.35rem solid #ff32ff;
-  /* border: 0.35rem solid #06fbfa; */
-    width: 220px;
-    border-radius: 50%;
-    margin-bottom: 1.15rem;
-    transition: opacity .3s ease;
+  width: 220px;
+  border-radius: 50%;
+  margin-bottom: 1.15rem;
+  transition: opacity 0.3s ease;
 }
 
 .content .login {
@@ -97,7 +93,7 @@ img{
   color: #06fbfa;
   margin-bottom: 2px;
   cursor: pointer;
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
 }
 
 .container {
@@ -136,7 +132,7 @@ img{
 .content .follows .followings {
   padding: 10px 20px;
   background-color: #24292e;
-  
+
   border-radius: 8px;
   text-align: center;
 }
@@ -155,15 +151,5 @@ a {
   cursor: pointer;
   margin-bottom: 20px;
   font-weight: 500;
-}
-
-@media screen and (max-width: 1024px) {
-  
-}
-@media screen and (max-width: 600px) {
-  
-}
-@media screen and (max-width: 400px) {
-
 }
 </style>

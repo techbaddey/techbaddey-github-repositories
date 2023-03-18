@@ -7,7 +7,9 @@
     </div>
     <div class="nav-items">
       <router-link class="layout-link" to="/">Profile</router-link>
-      <router-link class="layout-link" to="/repositories">Repositories</router-link>
+      <router-link class="layout-link" to="/repositories"
+        >Repositories</router-link
+      >
       <router-link class="layout-link" to="/404">404</router-link>
     </div>
   </nav>
@@ -48,7 +50,6 @@ nav {
   padding: 10px 15px 4px 15px;
 }
 
-
 .profile img {
   width: 40px;
   height: 40px;
@@ -74,7 +75,6 @@ nav {
   transition: 0.2s ease-in-out;
   margin-left: 1.5rem;
 }
-
 
 @media (max-width: 768px) {
   .layout-link {

@@ -10,7 +10,8 @@
           v-for="repo in paginatedRepositories"
           :key="repo.id"
         >
-        🚀 <router-link
+          🚀
+          <router-link
             class="links"
             :to="{ name: 'single-repo', params: { id: repo.id } }"
             >{{ repo.name }}</router-link
@@ -87,17 +88,15 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
 
 .repos-container {
-  /* margin: 0 -1rem -1rem 0; */
   margin-top: 135px;
-  /* height: 100vh; */
+  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2); */
 }
 
 .repos {
@@ -109,7 +108,6 @@ export default {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
-  /* color: #504b4b; */
 }
 
 .loader-container {
@@ -187,7 +185,6 @@ li {
   font-size: 1.2rem;
   margin: 0.3rem 0;
   padding: 1rem;
-  /* border: 1px solid #ccc; */
   border-radius: 10px;
 }
 
@@ -203,7 +200,6 @@ li:hover {
 }
 
 .links {
-  /* color: #504b4b; */
   color: #fff;
   text-decoration: none;
   cursor: pointer;

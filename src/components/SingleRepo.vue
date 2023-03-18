@@ -3,19 +3,26 @@
     <span class="loader" v-if="loading"></span>
     <div class="repos" v-else>
       <div class="head">
-      <h1><a :href="repository.html_url"> 🔗 {{ repository.name }} </a> </h1>  
-      <p class="rep" title="repo visibility"> 🌎︎ {{ repository.visibility }}</p>
+        <h1>
+          <a :href="repository.html_url"> 🔗 {{ repository.name }} </a>
+        </h1>
+        <p class="rep" title="repo visibility">
+          🌎︎ {{ repository.visibility }}
+        </p>
       </div>
 
       <p class="desc" title="repo description">{{ repository.description }}</p>
 
       <div class="foot">
-      <p class="rep" title="repo language"> {{ repository.language }}</p>
-      <p class="rep" title="stars count"> ★ {{ repository.stargazers_count }}
-      </p>
-      <p class="rep" title="watchers count"> 👁 {{ repository.watchers_count }}</p>
-      <p class="rep" title="repo size"> {{ repository.size }}KB</p>
-     </div>
+        <p class="rep" title="repo language">{{ repository.language }}</p>
+        <p class="rep" title="stars count">
+          ★ {{ repository.stargazers_count }}
+        </p>
+        <p class="rep" title="watchers count">
+          👁 {{ repository.watchers_count }}
+        </p>
+        <p class="rep" title="repo size">{{ repository.size }}KB</p>
+      </div>
       <button @click="redirectToHome" class="btn">Back</button>
     </div>
   </div>
@@ -48,7 +55,7 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
 
 .repos-container .repos {
   position: absolute;
@@ -75,13 +82,11 @@ export default {
   justify-content: space-between;
   align-items: center;
   font-family: "Space Mono", monospace;
-  
 }
 
 .foot p {
   font-family: "Space Mono", monospace;
 }
-
 
 .repos h1 {
   text-transform: uppercase;
@@ -91,14 +96,13 @@ export default {
   color: #fff;
 }
 
-.repos a{
+.repos a {
   text-decoration: none;
   color: #fff;
   font-family: "Space Mono", monospace;
-
 }
 
-.repos p{
+.repos p {
   font-family: "Space Mono", monospace;
 }
 .btn {
@@ -132,6 +136,4 @@ export default {
     width: 35%;
   }
 }
-  
-
 </style>
