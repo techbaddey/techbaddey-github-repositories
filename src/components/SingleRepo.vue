@@ -4,7 +4,7 @@
     <div class="repos" v-else>
       <div class="head">
         <h1>
-          <a :href="repository.html_url"> 🔗 {{ repository.name }} </a>
+          <a :href="repository.html_url">🔗{{ repository.name }} </a>
         </h1>
         <p class="rep" title="repo visibility">
           🌎︎ {{ repository.visibility }}
@@ -62,7 +62,7 @@ export default {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 85%;
+  width: 95%;
   background: #000;
   padding: 1rem;
   border-radius: 5px;
@@ -90,7 +90,7 @@ export default {
 
 .repos h1 {
   text-transform: uppercase;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin: 1rem 0;
   font-family: "Space Mono", monospace;
   color: #fff;
