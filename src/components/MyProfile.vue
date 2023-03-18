@@ -152,4 +152,27 @@ a {
   margin-bottom: 20px;
   font-weight: 500;
 }
+
+@media screen and (max-width: 768px) {
+  h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.9rem;
+  color: #fff;
+  padding: 0px 10px;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border: 0.35rem solid #ff32ff;
+  width: 190px;
+  border-radius: 50%;
+  margin-bottom: 1.15rem;
+  transition: opacity 0.3s ease;
+}
+}
+
 </style>
