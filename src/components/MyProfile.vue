@@ -67,7 +67,7 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 h1 {
@@ -113,6 +113,7 @@ img{
   max-width: 100%;
   font-size: 1.1rem;
   text-align: center;
+  padding: 0px 10px;
 }
 
 .content .follows {

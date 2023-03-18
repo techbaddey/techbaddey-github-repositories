@@ -42,13 +42,13 @@ export default {
 
 .second-text {
   font-size: 23px;
-  color: grey;
+  color: #8a8b8b;
   margin-bottom: 3rem;
 }
 
 .third-text {
   font-size: 16px;
-  color: grey;
+  color: #8a8b8b;
   margin-bottom: 3rem;
 }
 

@@ -124,7 +124,7 @@ export default {
 .desc {
   font-size: 1.2rem;
   text-align: justify;
-  color: #24292e;
+  color: #8a8b8b;
 }
 
 @media screen and (min-width: 768px) {
