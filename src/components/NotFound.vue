@@ -1,16 +1,16 @@
 <template>
    <div class="page-404">
     <div class="page-404__inner">
-      <h1> Oops! </h1>
-      <p> We can't seem to find the
+      <p class="first-text"> Oops! </p>
+      <p class="second-text"> We can't seem to find the
 page you're looking for. </p>
-      <p>Error code: 404</p>
-      <p>Here are some helpful links instead:</p>
+      <p class="third-text">Error code: 404</p>
+      <p class="fourth-text">Here are some helpful links instead:</p>
       <div class="link-container">
       <!-- <RouterLink to="/" class="link"> Go Home </RouterLink> -->
-      <router-link class="layout-link" to="/">Profile</router-link>
-      <router-link class="layout-link" to="/repositories">Repositories</router-link>
-      <router-link class="layout-link" to="/404">404</router-link>
+      <router-link class="link" to="/">Profile</router-link>
+      <router-link class="link" to="/repositories">Repositories</router-link>
+      <router-link class="link" to="/404">404</router-link>
     </div>
     </div>
     
@@ -27,25 +27,45 @@ export default {
 
 <style scoped>
 .page-404 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-  /* Mobile Styles */
-  @media screen and (max-width: 600px) {
-    flex-direction: column;
-  }
-}
-
-
-.page-404__inner {
-  width: 75%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  
-  /* Mobile Styles */
-  @media screen and (max-width: 600px) {
-    width: 100%;
-  }
 }
+
+.first-text {
+  font-size: 100px;
+  color: #fff;
+  /* margin-bottom: 0.5rem; */
+}
+
+.second-text {
+  font-size: 23px;
+  color: grey;
+  margin-bottom: 3rem;
+}
+
+.third-text {
+  font-size: 16px;
+  color: grey;
+  margin-bottom: 3rem;
+}
+
+.fourth-text {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 0.1rem;
+}
+
+.link-container .link {
+  font-size: 16px;
+  color: #ff32ff;
+  margin-bottom: 0.5rem;
+  text-decoration: underline;
+  margin-right: 1rem;
+}
+
+
 
 </style>

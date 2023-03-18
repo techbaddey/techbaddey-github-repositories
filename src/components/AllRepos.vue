@@ -87,6 +87,8 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
 .repos-container {
   /* margin: 0 -1rem -1rem 0; */
   margin-top: 135px;
@@ -108,6 +110,13 @@ export default {
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
   /* color: #504b4b; */
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 .loader {
   width: 48px;
@@ -161,6 +170,8 @@ h1 {
   color: #fff;
   text-align: center;
   font-size: 1.5rem;
+  font-family: "Space Mono", monospace;
+  margin-bottom: 20px;
 }
 
 ul {
@@ -172,8 +183,9 @@ ul {
 }
 
 li {
+  font-family: "Space Mono", monospace;
   font-size: 1.2rem;
-  margin: 1rem 0;
+  margin: 0.3rem 0;
   padding: 1rem;
   /* border: 1px solid #ccc; */
   border-radius: 10px;
@@ -218,7 +230,7 @@ button {
   border: none;
   padding: 0.5rem 2rem;
   border-radius: 5px;
-  margin: 0 0.5rem;
+  margin: 0 0.7rem;
   font-size: 1.2rem;
 }
 

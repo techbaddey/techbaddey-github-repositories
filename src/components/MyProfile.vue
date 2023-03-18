@@ -11,11 +11,11 @@
         <p class="bio">{{ profile.bio }}</p>
 
         <div class="follows">
+          <div class="followings">
+            <b>35</b> <br />Repositories
+          </div>
           <div class="followers">
             <b>{{ profile.followers }}</b> <br />Followers
-          </div>
-          <div class="followings">
-            <b>{{ profile.following }}</b> <br />Followings
           </div>
         </div>
 
@@ -129,12 +129,13 @@ img{
   background-color: #24292e;
   border-radius: 8px;
   text-align: center;
+  margin-left: 20px;
 }
 
 .content .follows .followings {
   padding: 10px 20px;
   background-color: #24292e;
-  margin-left: 20px;
+  
   border-radius: 8px;
   text-align: center;
 }
