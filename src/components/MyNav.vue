@@ -78,7 +78,7 @@ nav {
 
 @media (max-width: 768px) {
   .layout-link {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 </style>
