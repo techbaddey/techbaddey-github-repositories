@@ -42,7 +42,7 @@ export default {
 
   created: function () {
     axios
-      .get("https://api.github.com/users/teqbaddie")
+      .get("https://api.github.com/users/techbaddey")
       .then((response) => {
         this.profile = response.data;
       })
