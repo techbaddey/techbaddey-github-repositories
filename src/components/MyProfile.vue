@@ -11,7 +11,7 @@
         <p class="bio">{{ profile.bio }}</p>
 
         <div class="follows">
-          <div class="followings"><b>35</b> <br />Repositories</div>
+          <div class="followings"><b>51</b> <br />Repositories</div>
           <div class="followers">
             <b>{{ profile.followers }}</b> <br />Followers
           </div>
