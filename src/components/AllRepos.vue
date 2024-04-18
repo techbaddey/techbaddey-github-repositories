@@ -63,7 +63,7 @@ export default {
       try {
         await new Promise((resolve) => setTimeout(resolve, 1000));
         const response = await axios.get(
-          "https://api.github.com/users/teqbaddie/repos"
+          "https://api.github.com/users/techbaddey/repos"
         );
         this.repositories = response.data;
         this.totalPages = Math.ceil(this.repositories.length / this.perPage);
