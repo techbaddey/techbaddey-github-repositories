@@ -24,7 +24,7 @@
     <a href="https://github.com/techbaddey/techbaddey-github-repositories#readme"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://teqbaddie-repositories.netlify.app/">View Project Live</a>
+    <a href="https://techbaddey-github-repositories.netlify.app/">View Project Live</a>
     ·
     <a href="https://github.com/techbaddey/techbaddey-github-repositories/issues">Report Bug</a>
     ·
@@ -71,7 +71,7 @@
 [stars-url]: https://github.com/teqbaddie/teqbaddie-repos/stargazers
 [issues-shield]: https://img.shields.io/github/issues/teqbaddie/teqbaddie-repos.svg?style=for-the-badge
 [issues-url]: https://github.com/Teqbaddie/teqbaddie-reposissues
-[twitter-shield]: https://img.shields.io/badge/-@teq_baddie-1ca0f1?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/teq_baddie
+[twitter-shield]: https://img.shields.io/badge/-@techbaddey-1ca0f1?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/techbaddey
 [twitter-url]: https://twitter.com/techabddey
 [html5]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
 [css3]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
@@ -91,7 +91,7 @@ Create a new vue js application then using the GitHub API, fetch your GitHub rep
 
 ### Technologies Used
 
-Techbaddey Github Repositories is a React-based application, built with the following technologies: 
+Techbaddey Github Repositories is a Vue-based application, built with the following technologies: 
 
 - ![HTML5][html5]
 - ![CSS3][css3]
