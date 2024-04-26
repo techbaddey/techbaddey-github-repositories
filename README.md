@@ -21,14 +21,14 @@
 
 <div>
   <p align="center">
-    <a href="https://github.com/teqbaddie/teqbaddie-repos#readme"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/techbaddey/techbaddey-github-repositories#readme"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://teqbaddie-repositories.netlify.app/">View Project Live</a>
     ·
-    <a href="https://github.com/teqbaddie/teqbaddie-repos/issues">Report Bug</a>
+    <a href="https://github.com/techbaddey/techbaddey-github-repositories/issues">Report Bug</a>
     ·
-    <a href="https://github.com/teqbaddie/teqbaddie-repos/issues">Request Feature</a>
+    <a href="https://github.com/techbaddey/tecgbaddey-github-repositories/issues">Request Feature</a>
   </p>
 </div>
 
@@ -39,7 +39,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-teqbaddie-repos">About Teqbaddie GitHub Repos</a>
+      <a href="#about-teqbaddie-repos">About Techbaddey GitHub Repositories</a>
       <ul>
         <li><a href="#technologies-used">Technologies Used</a></li>
       </ul>
@@ -72,7 +72,7 @@
 [issues-shield]: https://img.shields.io/github/issues/teqbaddie/teqbaddie-repos.svg?style=for-the-badge
 [issues-url]: https://github.com/Teqbaddie/teqbaddie-reposissues
 [twitter-shield]: https://img.shields.io/badge/-@teq_baddie-1ca0f1?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/teq_baddie
-[twitter-url]: https://twitter.com/teq_baddie
+[twitter-url]: https://twitter.com/techabddey
 [html5]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
 [css3]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
 [javascript]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
@@ -80,7 +80,7 @@
 
 
 <!-- About the Project -->
-## About Teqbaddie GitHub Repos
+## About Techbaddey GitHub Repos
 
 This project is a my last semester examination project from AltSchool Africa, School of Engineering, it is a Vue.js application that displays a list of all the GitHub repositories of a user. It uses the GitHub API to fetch the list of repositories and shows them with pagination. It also has a page that displays details of a single repo clicked from the list of repos. This project also implements a wildcard route to catch 404 pages.
 
@@ -91,7 +91,7 @@ Create a new vue js application then using the GitHub API, fetch your GitHub rep
 
 ### Technologies Used
 
-MyDomot is a React-based application, built with the following technologies: 
+Techbaddey Github Repositories is a React-based application, built with the following technologies: 
 
 - ![HTML5][html5]
 - ![CSS3][css3]
